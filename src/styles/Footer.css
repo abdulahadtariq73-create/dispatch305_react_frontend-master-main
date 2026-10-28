@@ -107,8 +107,9 @@
 }
 
 .contact-us-s-media-a {
-  padding-left: 10px !important;
-  padding-right: 10px !important;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .developer-url-text {
