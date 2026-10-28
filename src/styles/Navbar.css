@@ -62,3 +62,43 @@
 }
 
 @media screen and (max-width: 991px) {
+  .navbar {
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+
+  .navbar-nav {
+    padding: 18px 0 10px;
+  }
+}
+
+@media screen and (max-width: 578px) {
+  .navbar {
+    z-index: 999999;
+  }
+
+  .navbar-brand {
+    padding: 0px;
+  }
+
+  .navbar-brand-img {
+    width: 100%;
+    max-width: 180px;
+    height: 48px;
+    margin-left: 10px !important;
+  }
+
+  .navbar-toggle {
+    margin-right: 15px;
+  }
+
+  .navbar-nav {
+    background-color: white !important;
+    border-radius: 12px;
+    padding: 12px;
+  }
+
+  .navbar-link:hover:after {
+    transform: scaleX(1);
+  }
+}

@@ -123,4 +123,82 @@
 }
 
 .contact-banner {
-  background: linear-gradient(135deg, #f89422, #ffb3
+  background: linear-gradient(135deg, #f89422, #ffb347);
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 0 10px 20px rgba(255, 255, 255, 0.12);
+}
+
+.contact-banner-title-h2 {
+  color: white !important;
+  font-family: "DIN Condensed Bold" !important;
+  font-size: clamp(2.3rem, 4vw, 4rem) !important;
+  font-weight: bold !important;
+  text-align: center;
+  letter-spacing: 0.24em;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.contact-us-div {
+  margin-left: auto;
+  margin-right: auto;
+  width: min(1200px, 90%);
+}
+
+@media screen and (max-width: 768px) {
+  .section-shell {
+    padding: 64px 0;
+  }
+
+  .landing-custom-header2 {
+    font-size: 2.2rem !important;
+  }
+
+  .landing-paragraph {
+    text-align: left;
+  }
+
+  .contact-banner {
+    height: 100px;
+  }
+
+  .contact-banner-title-h2 {
+    letter-spacing: 0.12em;
+  }
+}
+
+@media screen and (max-width: 578px) {
+  .banner-spacer {
+    height: 0px !important;
+  }
+
+  .landing-custom-header2 {
+    font-size: 2rem !important;
+    font-weight: bold;
+  }
+
+  .landing-paragraph {
+    margin-top: 24px;
+    text-align: left;
+    padding: 22px 18px;
+  }
+
+  .contact-banner {
+    height: 88px;
+  }
+
+  .contact-banner-title-h2 {
+    font-size: 1.8rem !important;
+    letter-spacing: 0.1em;
+    line-height: 1.2;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .comenzar-button-div {
+    margin-top: 25px;
+  }
+}
