@@ -81,7 +81,7 @@ export default function CreateAccount() {
       </div>
 
       <h4 className="text-center create-account-custom-title">
-        Enviar los documentos
+        Enviar Los Documentos
       </h4>
 
       <div className="create-account-paragraph-div">
