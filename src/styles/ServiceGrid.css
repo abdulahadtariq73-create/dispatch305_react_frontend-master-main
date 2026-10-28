@@ -1,0 +1,18 @@
+.service-grid-div {
+  width: min(1200px, 100%);
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.service-grid-row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 1.5rem;
+}
+
+.service-grid-col {
+  margin-bottom: 20px;
+}
+
+.service-grid-card {
+  w
